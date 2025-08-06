@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-polis-data.js",
-    "generate-index": "node scripts/generateIndexJson.js",
+    "generate-index": "node scripts/generate-index-json.js",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
