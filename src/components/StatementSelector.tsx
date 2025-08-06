@@ -68,6 +68,7 @@ export function StatementSelector({
           const id = group.id ?? i;
           return (
             <button
+              translate="no"
               key={id}
               onClick={() => setSelectedTab(id)}
               style={{

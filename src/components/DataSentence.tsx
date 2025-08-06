@@ -52,7 +52,7 @@ export function DataSentence({
 
   return (
     <div style={{ marginTop: 20, fontSize: 18 }}>
-      <div style={{ marginBottom: 8 }}>
+      <div style={{ marginBottom: 8 }} key={new Date().toISOString()}>
         <strong>#{selectedTid}</strong> {comment.txt}
       </div>
       {percent !== null && (
