@@ -3,7 +3,8 @@ import * as d3 from "d3";
 import { GroupHulls } from "./GroupHulls"; // adjust path if needed
 
 const globals = {
-  side: 900,
+  width: 750,
+  height: (750 * 2) / 3,
 };
 
 function OpinionGraph({ comments, math, Strings }: any) {
@@ -25,16 +26,15 @@ function OpinionGraph({ comments, math, Strings }: any) {
     isSelf: pid === 0, // highlight current user if desired
   }));
 
-  // Create scale to map from [-2, 2] to [0, globals.side], optionally flipping
   const xScale = d3
     .scaleLinear()
     .domain(config.flipX ? [2, -2] : [-2, 2])
-    .range([0, globals.side]);
+    .range([0, globals.width]);
 
   const yScale = d3
     .scaleLinear()
     .domain(config.flipY ? [-2, 2] : [2, -2])
-    .range([0, globals.side]);
+    .range([0, globals.height]);
 
   const getPosition = (x: number, y: number) => ({
     cx: xScale(x),
@@ -42,7 +42,7 @@ function OpinionGraph({ comments, math, Strings }: any) {
   });
 
   return (
-    <svg width={globals.side} height={globals.side}>
+    <svg width={globals.width} height={globals.height} viewBox={`0 0 ${globals.width} ${globals.height}`}>
       <Axes />
       <GroupHulls ptptois={ptptois} groupClusters={groupClusters} getPosition={getPosition} />
       <Participants ptptois={ptptois} getPosition={getPosition} />
@@ -96,11 +96,12 @@ function GroupLabels({ groupClusters = [], getPosition }: any) {
 }
 
 function Axes() {
-  const mid = globals.side / 2;
+  const midX = globals.width / 2;
+  const midY = globals.height / 2;
   return (
     <g id="axes">
-      <line x1={0} y1={mid} x2={globals.side} y2={mid} stroke="#ccc" />
-      <line x1={mid} y1={0} x2={mid} y2={globals.side} stroke="#ccc" />
+      <line x1={0} y1={midY} x2={globals.width} y2={midY} stroke="#ccc" />
+      <line x1={midX} y1={0} x2={midX} y2={globals.height} stroke="#ccc" />
     </g>
   );
 }
