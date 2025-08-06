@@ -1,0 +1,32 @@
+[
+  {
+    "txt": "Are you kidding? Yo app? Yes, of course.",
+    "tid": 0,
+    "created": "1409330560875",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I don't think so. Companies like Uber & Amazon are profitable, professionally run businesses with solid backing. It actually is different this time.",
+    "tid": 1,
+    "created": "1409330616146",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Venture is getting smarter.",
+    "tid": 2,
+    "created": "1409330661923",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  }
+]
