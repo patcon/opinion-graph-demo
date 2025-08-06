@@ -1,0 +1,402 @@
+[
+  {
+    "txt": "The Facebook-Cambridge Analytica scandal was the most important development in the world of tech and politics in 2018.",
+    "tid": 2,
+    "created": "1544557306861",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 1
+  },
+  {
+    "txt": "\"Big data\" is no longer a hot topic.",
+    "tid": 3,
+    "created": "1544557393305",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 1
+  },
+  {
+    "txt": "The Amazon HQ2 decision ought to be a much bigger topic of public debate.",
+    "tid": 4,
+    "created": "1544557466172",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 1
+  },
+  {
+    "txt": "Cyber-security is still not taken seriously enough by most people in the politics-tech world.",
+    "tid": 5,
+    "created": "1544557511612",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 1
+  },
+  {
+    "txt": "The walkout by 20,000 Google workers over its history on sexual harassment issues was one of the biggest tech-politics developments of 2018.",
+    "tid": 6,
+    "created": "1544557650944",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 1
+  },
+  {
+    "txt": "The term \"Big Data\" is imprecise. There are important specific issues inside of the term that either are \"hot\" or should be \"hot\".",
+    "tid": 7,
+    "created": "1544560177266",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 2
+  },
+  {
+    "txt": "Cambridge Analytics was only an important scandal because it capture the attention of the political and media elite.",
+    "tid": 8,
+    "created": "1544560216294",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 2
+  },
+  {
+    "txt": "Most AI and ethics initiatives are not close enough to either legislators or AI businesses to make any difference.",
+    "tid": 9,
+    "created": "1544563824704",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "I believe that the abuse of Facebook in the 2016 election was definitely the key contributing factor to Trump's victory.",
+    "tid": 10,
+    "created": "1544563901372",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "Major regulatory interference in the operation of Facebook's algorithms and policies is now definitely going to happen, in the USA.",
+    "tid": 11,
+    "created": "1544563996724",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "Funders came to believe that the primarily role of funding in the technology-and-civil-society space was the mitigation of harms from GAFA",
+    "tid": 12,
+    "created": "1544564082454",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "I came to realise that ultimately the internet had been more damaging for democracy than it was good for it.",
+    "tid": 13,
+    "created": "1544564127189",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "The endowment of Signal (the messaging app) with a large endowment, by one of the co-founders of WhatsApp.",
+    "tid": 14,
+    "created": "1544564179801",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "Facebook implementing local news and local government alerts directly into its product",
+    "tid": 15,
+    "created": "1544564207131",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "The realisation that the Republicans are now just as good at the parts of Digital comms that actually influence elections as the Democrats",
+    "tid": 16,
+    "created": "1544564276113",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "A significant number of governing elites lost fear of having an internet connected microphone in their house, listening to everything",
+    "tid": 17,
+    "created": "1544565315774",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "The seeds were laid to see the banning of end-to-end encrypted instant messaging being banned in most of the world",
+    "tid": 18,
+    "created": "1544565378085",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "The widening of social credit scoring in China, which was much more important than anything that happened that involved US tech companies",
+    "tid": 19,
+    "created": "1544565745966",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "We realized that information warfare is occurring by nonstate actors in destabilizing the international order",
+    "tid": 20,
+    "created": "1544565790732",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 6
+  },
+  {
+    "txt": "The future of the internet is looks Chinese and is scored.",
+    "tid": 21,
+    "created": "1544565855679",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 6
+  },
+  {
+    "txt": "Big data is still a big topic; it's just become less a subject than an environment.",
+    "tid": 22,
+    "created": "1544566872541",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 7
+  },
+  {
+    "txt": "2018 was the year Americans stopped thinking Silicon Valley was “different” or distinct from Wall St or the military industrial complex",
+    "tid": 23,
+    "created": "1544586377763",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 13
+  },
+  {
+    "txt": "One of the most troubling uses of tech in elections are campaigns using peer-to-peer texting to massive lists, who aren’t opted in.",
+    "tid": 24,
+    "created": "1544591043941",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 16
+  },
+  {
+    "txt": "Alexandria Ocasio-Cortez and the Instagram stories and live video, spinning up the Green New Deal — a modern FDR and fireside chats.",
+    "tid": 25,
+    "created": "1544591128227",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 16
+  },
+  {
+    "txt": "It became clear that the business model prevalent in social media made those platforms more dangerous than helpful to society.",
+    "tid": 26,
+    "created": "1544594128774",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 17
+  },
+  {
+    "txt": "The conversation about ethical uses of technology has reached a tipping point. Citizens, businesses and governments are on it, but baffled.",
+    "tid": 27,
+    "created": "1544594284140",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 17
+  },
+  {
+    "txt": "Authoritarian populist parties worldwide figured out how to weaponize trust and social media, winning elections.",
+    "tid": 28,
+    "created": "1544594362590",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 17
+  },
+  {
+    "txt": "Social media facilitated the growth of \"illiberal democracy\" worldwide: instruments of democracy undermined, but preserved for looks.",
+    "tid": 29,
+    "created": "1544594443493",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 17
+  },
+  {
+    "txt": "The Dark Side is still winning online.",
+    "tid": 30,
+    "created": "1544594493554",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 17
+  },
+  {
+    "txt": "The brutal silencing of Jamal Khashoggi is one of the most significant happenings of 2018",
+    "tid": 32,
+    "created": "1544620249485",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "This year the SideWalk Labs project in Toronto brought the 'city of surveillance' discussion front and center.",
+    "tid": 33,
+    "created": "1544622382771",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Embarrassed by Facebook's role in the 2016 election, many social media companies deployed get-out-the-vote features on election day 2018.",
+    "tid": 34,
+    "created": "1544643577872",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 23
+  },
+  {
+    "txt": "Embarrassed by Facebook's role in the 2016 election, many social media co's deployed get-out-the-vote features for Election Day 2018.",
+    "tid": 35,
+    "created": "1544643634908",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 23
+  },
+  {
+    "txt": "\"Access and Assistance\" laws passed by Australian Parliament give a blank cheque to any democracy that wants to install device backdoors.",
+    "tid": 36,
+    "created": "1544650881976",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 31
+  },
+  {
+    "txt": "Community opposition to SideWalk Labs' \"Sidewalk Toronto\" smart city project due to lack of transparency & engagement about data policy",
+    "tid": 37,
+    "created": "1544657511589",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 34
+  },
+  {
+    "txt": "Swing Left's campaign in waiting: building grassroots donors and volunteers during the primary, ready to go for the winning candidate.",
+    "tid": 38,
+    "created": "1544659444362",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 35
+  },
+  {
+    "txt": "2018 has been marked by the troubling rise of authoritarian leaders around the world.",
+    "tid": 39,
+    "created": "1544730428849",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Tech companies will soon have more money and power than govts, but with little accountability, and no clear checks and balances.",
+    "tid": 40,
+    "created": "1544824864818",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 52
+  },
+  {
+    "txt": "For-profit tech companies will always be incentivized to favor profit over privacy and basic human rights.",
+    "tid": 41,
+    "created": "1544824910554",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 52
+  },
+  {
+    "txt": "The world of organizing connected more deeply with the world of tech, empowering frustrated tech workers to effectively organize internally.",
+    "tid": 42,
+    "created": "1544825001773",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 52
+  }
+]

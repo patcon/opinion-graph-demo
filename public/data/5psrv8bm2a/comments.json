@@ -1,0 +1,512 @@
+[
+  {
+    "txt": "1. There is a freshwater management crisis in New Zealand and something must be done about it.",
+    "tid": 0,
+    "created": "1500359783787",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "2. All NZ waterways should be safe to swim, fish, boat or perform other recreational activities in.",
+    "tid": 3,
+    "created": "1500359941806",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "3. All NZers have the right to access safe and clean freshwater from the tap for drinking, cooking, sanitation and watering plants.",
+    "tid": 4,
+    "created": "1500359963871",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "4. Businesses that meet acceptable national water quality standards should be rewarded to incentivise such behaviour.",
+    "tid": 5,
+    "created": "1500359976344",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "5. Businesses that pollute water over a nationally accepted level should pay a penalty.",
+    "tid": 6,
+    "created": "1500359994113",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "6. Farmers should have the right to use the water flowing through their land to irrigate or to dispose of waste products.",
+    "tid": 7,
+    "created": "1500360032603",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "7. Subsidising irrigation projects with millions of dollars of taxpayer money is justified as it will benefit the overall economy.",
+    "tid": 8,
+    "created": "1500360050183",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "8. Treaty of Waitangi commitments mean Maori access to clean waterways and freshwater food sources must be protected now and for future generations.",
+    "tid": 9,
+    "created": "1500360065177",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "9. More funds should be available to Iwi and other groups to enable Maori to play a more engaged role in protecting or restoring waterways.\n",
+    "tid": 10,
+    "created": "1500360096491",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "10. Treaty of Waitangi claims over ownership of freshwater resources must be resolved as was done with fisheries before a truly sustainable and effective allocation regime is possible. \n",
+    "tid": 11,
+    "created": "1500360107825",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "12. Protecting all endangered native freshwater flora and fauna is an urgent priority.",
+    "tid": 13,
+    "created": "1500360132122",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "14. We need a clear and inclusive National framework and institutions for making decisions about major water projects.",
+    "tid": 15,
+    "created": "1500360224704",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "15. Some freshwater catchment areas are simply too ecologically important or unsuitable for certain water activities to take place.",
+    "tid": 16,
+    "created": "1500360243251",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "16. All interested parties including appropriate Maori groups should be involved in decisions about the sustainable and long term use of each water catchment.",
+    "tid": 17,
+    "created": "1500360261634",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "17. There should be greater accountability and enforcement of rules against pollution.",
+    "tid": 18,
+    "created": "1500360283531",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "18. Those making profits from water extraction or using water as waste disposal should be paying for the privilege.\n",
+    "tid": 19,
+    "created": "1500360299930",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "20. Water should be held and governed collectively in trust for all citizens and we should all have equal say in its use and equal dividends in profits from its exploitation.",
+    "tid": 21,
+    "created": "1500360325715",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "21. We need a national water fund contributed to by water polluters and extractors which would be used to improve water quality.\n",
+    "tid": 22,
+    "created": "1500360339239",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "22. We need to adopt innovative and clean new water technologies and agriculture techniques now to ensure we have abundant and clean water supplies for the future",
+    "tid": 23,
+    "created": "1500360353133",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I live in a city\n",
+    "tid": 24,
+    "created": "1500360418409",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I live in a town",
+    "tid": 25,
+    "created": "1500360430539",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I live in a rural area",
+    "tid": 26,
+    "created": "1500360441610",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I live within 20km of a freshwater body (Creek, Stream, lake, river)",
+    "tid": 27,
+    "created": "1500360457214",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I do now or have in the past regularly used freshwater bodies for recreational activities",
+    "tid": 28,
+    "created": "1500360484342",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I access tapwater from a town, rural or urban water supply",
+    "tid": 29,
+    "created": "1500360495953",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am under 30 years of age\n",
+    "tid": 30,
+    "created": "1500360509264",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am 30 years of age or older but less than 55\n",
+    "tid": 31,
+    "created": "1500360525926",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am 55 years of age or older",
+    "tid": 32,
+    "created": "1500360543722",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am a farmer or commercial grower",
+    "tid": 33,
+    "created": "1500360560151",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I work in the field of water management or policy",
+    "tid": 34,
+    "created": "1500360581785",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am employed by or own a business that relies on freshwater resources",
+    "tid": 35,
+    "created": "1500360599205",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I have personally experienced issues of water quality (eg a boil water notice, a polluted local waterway or water-related gastro infection in the family)",
+    "tid": 36,
+    "created": "1500360746503",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "11. Waterways should have the inherent right to protection and conservation in an untouched state independently of people’s interests in them. \n",
+    "tid": 37,
+    "created": "1500425428238",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "13. Industrial water users like horticulture and farming need certainty of supply otherwise they cannot invest.\n",
+    "tid": 38,
+    "created": "1500425537429",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "23. Industrial users of water are motivated to regulate themselves to a good standard and poor performers will be visible to consumers who can choose other companies.",
+    "tid": 39,
+    "created": "1500425612176",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "24. Industrial water users like horticulture and farming need certainty of supply otherwise they cannot invest.\n",
+    "tid": 40,
+    "created": "1500425686044",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "19. Rivers and aquifers have the ability to come back into balance so a precautionary approach is too time consuming and risk averse.\n",
+    "tid": 41,
+    "created": "1500425805742",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Foreign companies should be encouraged to invest in & provide local jobs in water-consuming industries & farming.",
+    "tid": 60,
+    "created": "1501088069198",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Citizens have a right to clean potable water for drinking, cooking & food growing. Water for ornamental gardens/lawns/car washing etc is a desirable luxury not a right.",
+    "tid": 61,
+    "created": "1501088105080",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "New developments must be required to comply with best practice management of erosion, sediment run-off and stormwater.",
+    "tid": 62,
+    "created": "1501088159707",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "NZ needs better integration of land and water management. Modern sources of water pollution largely stem from poor land management.",
+    "tid": 63,
+    "created": "1501088208345",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Minimum flow requirements to protect freshwater ecosystems and recreational use should be set for all rivers and streams\n",
+    "tid": 64,
+    "created": "1501088346295",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "NZ should learn from countries with higher populations, like Australia and Europe, as to how best to protect water quality in urban areas",
+    "tid": 65,
+    "created": "1501088377164",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Everyone has a right to access and use freshwater water resources, not just those who own land beside a river/stream or over an aquifer.",
+    "tid": 66,
+    "created": "1501088399079",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "No one should be granted private property rights over vital natural resources such as fresh water",
+    "tid": 67,
+    "created": "1501088418351",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "The heavy use of weed control sprays, 1080 and Brodifacum by councils around our waterways needs to stop.",
+    "tid": 68,
+    "created": "1501088446027",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "The 7 steps of the Freshwater Rescue Plan (by a cross sector alliance of advocacy groups) should be adopted 1. Set strict and enforceable standards. 2. End public irrigation subsidies. 3. Create an Agricultural Transition Fund. 4. Decrease cow numbers. 5. Create polluter pays systems. 6. Support regional councils. 7. Transition to a low-carbon economy https://www.freshwaterrescueplan.org/the-plan/",
+    "tid": 70,
+    "created": "1501088828232",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Irrigation can allow for higher value horticultural crops to be grown in a manner that reduces nutrient losses to water ways",
+    "tid": 72,
+    "created": "1501141179410",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 65
+  },
+  {
+    "txt": "Heavy tax on water in plastic bottles",
+    "tid": 74,
+    "created": "1501192025192",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 69
+  },
+  {
+    "txt": "Regional councils are underfunded and too political to ensure appropriate compliance and monitoring of environmental issues.",
+    "tid": 75,
+    "created": "1501394974515",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 81
+  },
+  {
+    "txt": "Encouraging wider use of rainwater harvesting and greywater recycling for uses outside of human consumption will save valuable potable water and reduce load on water infrastructure.",
+    "tid": 76,
+    "created": "1501446824133",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  }
+]

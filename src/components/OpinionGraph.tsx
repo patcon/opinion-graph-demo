@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import * as d3 from "d3";
 import { GroupHulls } from "./GroupHulls"; // adjust path if needed
 
@@ -7,17 +7,8 @@ const globals = {
   height: (750 * 2) / 3,
 };
 
-function OpinionGraph({ comments, math, Strings }: any) {
+function OpinionGraph({ comments, math, config = { flipX: false, flipY: false } }: { comments: any; math: any; config?: { flipX: boolean; flipY: boolean } }) {
   const { groupClusters = math["group-clusters"], baseClusters = math["base-clusters"], ["group-votes"]: groupVotes = math["group-votes"] } = math;
-
-  const [config, setConfig] = useState({ flipX: false, flipY: false });
-
-  useEffect(() => {
-    fetch("/data/config.json")
-      .then((res) => res.json())
-      .then((data) => setConfig(data))
-      .catch(() => {}); // fallback silently
-  }, []);
 
   const ptptois = baseClusters.id.map((pid: number, i: number) => ({
     pid,
