@@ -13,7 +13,7 @@ const globals = {
 function OpinionGraph({
   comments,
   math,
-  config = { flipX: false, flipY: false },
+  config = { flipX: false, flipY: true },
   selectedTab,
   setSelectedTab,
   selectedTid,

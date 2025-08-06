@@ -1,43 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
-import { OpinionGraph } from "./components/OpinionGraph";
+import { Viewer } from "./components/Viewer";
 
-const DATASET_ID = "6jrufhr6dp"; // or allow user to select later
-
-function App() {
-  const [comments, setComments] = useState<any>(null);
-  const [math, setMath] = useState<any>(null);
-  const [config, setConfig] = useState<{ flipX: boolean; flipY: boolean }>({ flipX: false, flipY: false });
-
-  // Unified selectedTab state: "majority" or a group number (e.g., 0, 1, ...)
-  const [selectedTab, setSelectedTab] = useState<"majority" | number>("majority");
-  const [selectedTid, setSelectedTid] = useState<number | null>(null);
-
-  useEffect(() => {
-    Promise.all([
-      fetch(`/data/${DATASET_ID}/comments.json`).then((res) => res.json()),
-      fetch(`/data/${DATASET_ID}/math.json`).then((res) => res.json()),
-      fetch(`/data/${DATASET_ID}/config.json`).then((res) => res.json()).catch(() => ({ flipX: false, flipY: false }))
-    ]).then(([commentsData, mathData, configData]) => {
-      setComments(commentsData);
-      setMath(mathData);
-      setConfig(configData);
-    });
-  }, []);
-
-  if (!comments || !math) return <p>Loading…</p>;
-
+export default function App() {
   return (
-    <OpinionGraph
-      comments={comments}
-      math={math}
-      config={config}
-      selectedTab={selectedTab}
-      setSelectedTab={setSelectedTab}
-      selectedTid={selectedTid}
-      setSelectedTid={setSelectedTid}
-    />
+    <div style={{ padding: 20 }}>
+      <Viewer />
+    </div>
   );
 }
-
-export default App;
