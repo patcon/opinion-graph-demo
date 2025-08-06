@@ -25,7 +25,7 @@ export function Viewer() {
 
   const [math, setMath] = useState(null);
   const [comments, setComments] = useState(null);
-  const [conversation, setConversation] = useState(null);
+  const [conversation, setConversation] = useState<{ topic?: string } | null>(null);
   const [availableDatasets, setAvailableDatasets] = useState<DatasetEntry[]>([]);
   const [selectedTab, setSelectedTab] = useState<"majority" | number>("majority");
   const [selectedTid, setSelectedTid] = useState<number | null>(null);
