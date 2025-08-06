@@ -3,6 +3,7 @@ import * as d3 from "d3";
 import { GroupHulls } from "./GroupHulls";
 import { StatementSelector } from "./StatementSelector";
 import { BarChartsForGroupVotes } from "./BarChartsForGroupVotes";
+import { DataSentence } from "./DataSentence";
 
 const globals = {
   width: 750,
@@ -76,7 +77,6 @@ function OpinionGraph({
           getPosition={getPosition}
           selectedTab={selectedTab}
           setSelectedTab={setSelectedTab}
-          setSelectedTid={setSelectedTid}
         />
         <Participants ptptois={ptptois} getPosition={getPosition} />
         <GroupLabels
@@ -99,6 +99,12 @@ function OpinionGraph({
         setSelectedTab={setSelectedTab}
         selectedTid={selectedTid}
         setSelectedTid={setSelectedTid}
+      />
+      <DataSentence
+        selectedTab={selectedTab}
+        selectedTid={selectedTid}
+        comments={comments}
+        math={math}
       />
     </div>
   );
