@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export function StatementSelector({
   comments,
   math,
   selectedTab,
   setSelectedTab,
+  selectedTid,
+  setSelectedTid,
 }: {
   comments: any;
   math: any;
   selectedTab: "majority" | number;
   setSelectedTab: (tab: "majority" | number) => void;
+  selectedTid: number | null;
+  setSelectedTid: (tid: number) => void;
 }) {
   const groupClusters = math["group-clusters"] ?? [];
 
@@ -21,10 +25,27 @@ export function StatementSelector({
     }
   })();
 
+  useEffect(() => {
+    if (statementIds.length > 0) {
+      setSelectedTid(statementIds[0]);
+    }
+  }, [selectedTab]);
+
   const statementButtons = statementIds.map((tid: number) => {
     const text = comments[tid]?.comment ?? `#${tid}`;
+    const isSelected = selectedTid === tid;
     return (
-      <button key={tid} style={{ marginRight: 8, marginBottom: 8 }}>
+      <button
+        key={tid}
+        onClick={() => setSelectedTid(tid)}
+        style={{
+          marginRight: 8,
+          marginBottom: 8,
+          backgroundColor: isSelected ? "#0000FF1F" : "#fff",
+          borderColor: isSelected ? "#00f" : "#ccc",
+          fontWeight: isSelected ? "bold" : "normal",
+        }}
+      >
         {text}
       </button>
     );
@@ -37,25 +58,28 @@ export function StatementSelector({
           onClick={() => setSelectedTab("majority")}
           style={{
             fontWeight: selectedTab === "majority" ? "bold" : "normal",
-              backgroundColor: selectedTab === "majority" ? "#0000FF1F" : "#fff",
-              borderColor: selectedTab === "majority" ? "#00f" : "#ccc",
+            backgroundColor: selectedTab === "majority" ? "#0000FF1F" : "#fff",
+            borderColor: selectedTab === "majority" ? "#00f" : "#ccc",
           }}
         >
           Majority Opinion
         </button>
-        {groupClusters.map((group: any, i: number) => (
-          <button
-            key={group.id ?? i}
-            onClick={() => setSelectedTab(group.id ?? i)}
-            style={{
-              fontWeight: selectedTab === (group.id ?? i) ? "bold" : "normal",
-              backgroundColor: selectedTab === (group.id ?? i) ? "#0000FF1F" : "#fff",
-              borderColor: selectedTab === (group.is ?? i) ? "#00f" : "#ccc",
-            }}
-          >
-            {String.fromCharCode(65 + i)}
-          </button>
-        ))}
+        {groupClusters.map((group: any, i: number) => {
+          const id = group.id ?? i;
+          return (
+            <button
+              key={id}
+              onClick={() => setSelectedTab(id)}
+              style={{
+                fontWeight: selectedTab === id ? "bold" : "normal",
+                backgroundColor: selectedTab === id ? "#0000FF1F" : "#fff",
+                borderColor: selectedTab === id ? "#00f" : "#ccc",
+              }}
+            >
+              {String.fromCharCode(65 + i)}
+            </button>
+          );
+        })}
       </div>
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>{statementButtons}</div>
     </div>

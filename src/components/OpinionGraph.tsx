@@ -1,27 +1,42 @@
 import React from "react";
 import * as d3 from "d3";
-import { GroupHulls } from "./GroupHulls"; // adjust path if needed
+import { GroupHulls } from "./GroupHulls";
 import { StatementSelector } from "./StatementSelector";
+import { BarChartsForGroupVotes } from "./BarChartsForGroupVotes";
 
 const globals = {
   width: 750,
   height: (750 * 2) / 3,
 };
 
-function OpinionGraph({ comments, math, config = { flipX: false, flipY: false }, selectedTab, setSelectedTab }: {
+function OpinionGraph({
+  comments,
+  math,
+  config = { flipX: false, flipY: false },
+  selectedTab,
+  setSelectedTab,
+  selectedTid,
+  setSelectedTid,
+}: {
   comments: any;
   math: any;
   config?: { flipX: boolean; flipY: boolean };
   selectedTab: "majority" | number;
   setSelectedTab: (tab: "majority" | number) => void;
+  selectedTid: number | null;
+  setSelectedTid: (tid: number) => void;
 }) {
-  const { groupClusters = math["group-clusters"], baseClusters = math["base-clusters"], ["group-votes"]: groupVotes = math["group-votes"] } = math;
+  const {
+    groupClusters = math["group-clusters"],
+    baseClusters = math["base-clusters"],
+    ["group-votes"]: groupVotes = math["group-votes"],
+  } = math;
 
   const ptptois = baseClusters.id.map((pid: number, i: number) => ({
     pid,
     x: baseClusters.x[i],
     y: baseClusters.y[i],
-    isSelf: pid === 0, // highlight current user if desired
+    isSelf: pid === 0,
   }));
 
   const xExtent = d3.extent(baseClusters.x) as [number, number];
@@ -49,7 +64,11 @@ function OpinionGraph({ comments, math, config = { flipX: false, flipY: false },
 
   return (
     <div>
-      <svg width={globals.width} height={globals.height} viewBox={`0 0 ${globals.width} ${globals.height}`}>
+      <svg
+        width={globals.width}
+        height={globals.height}
+        viewBox={`0 0 ${globals.width} ${globals.height}`}
+      >
         <Axes />
         <GroupHulls
           ptptois={ptptois}
@@ -57,15 +76,28 @@ function OpinionGraph({ comments, math, config = { flipX: false, flipY: false },
           getPosition={getPosition}
           selectedTab={selectedTab}
           setSelectedTab={setSelectedTab}
+          setSelectedTid={setSelectedTid}
         />
         <Participants ptptois={ptptois} getPosition={getPosition} />
-        <GroupLabels groupClusters={groupClusters} groupVotes={groupVotes} getPosition={getPosition} />
+        <GroupLabels
+          groupClusters={groupClusters}
+          groupVotes={groupVotes}
+          getPosition={getPosition}
+        />
+        <BarChartsForGroupVotes
+          groupClusters={groupClusters}
+          groupVotes={groupVotes}
+          selectedTid={selectedTid}
+          getPosition={getPosition}
+        />
       </svg>
       <StatementSelector
         comments={comments}
         math={math}
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
+        selectedTid={selectedTid}
+        setSelectedTid={setSelectedTid}
       />
     </div>
   );

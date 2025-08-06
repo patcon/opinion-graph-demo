@@ -11,6 +11,7 @@ function App() {
 
   // Unified selectedTab state: "majority" or a group number (e.g., 0, 1, ...)
   const [selectedTab, setSelectedTab] = useState<"majority" | number>("majority");
+  const [selectedTid, setSelectedTid] = useState<number | null>(null);
 
   useEffect(() => {
     Promise.all([
@@ -33,6 +34,8 @@ function App() {
       config={config}
       selectedTab={selectedTab}
       setSelectedTab={setSelectedTab}
+      selectedTid={selectedTid}
+      setSelectedTid={setSelectedTid}
     />
   );
 }
