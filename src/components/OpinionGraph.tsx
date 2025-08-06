@@ -17,15 +17,24 @@ function OpinionGraph({ comments, math, config = { flipX: false, flipY: false } 
     isSelf: pid === 0, // highlight current user if desired
   }));
 
-  const xScale = d3
-    .scaleLinear()
-    .domain(config.flipX ? [2, -2] : [-2, 2])
-    .range([0, globals.width]);
+  const xExtent = d3.extent(baseClusters.x) as [number, number];
+  const yExtent = d3.extent(baseClusters.y) as [number, number];
 
-  const yScale = d3
-    .scaleLinear()
-    .domain(config.flipY ? [-2, 2] : [2, -2])
-    .range([0, globals.height]);
+  // Apply padding (e.g. 10%)
+  const pad = 0.1;
+  const xRange = xExtent[1] - xExtent[0];
+  const yRange = yExtent[1] - yExtent[0];
+
+  const xDomain = config.flipX
+    ? [xExtent[1] + xRange * pad, xExtent[0] - xRange * pad]
+    : [xExtent[0] - xRange * pad, xExtent[1] + xRange * pad];
+
+  const yDomain = config.flipY
+    ? [yExtent[0] - yRange * pad, yExtent[1] + yRange * pad]
+    : [yExtent[1] + yRange * pad, yExtent[0] - yRange * pad];
+
+  const xScale = d3.scaleLinear().domain(xDomain).range([0, globals.width]);
+  const yScale = d3.scaleLinear().domain(yDomain).range([0, globals.height]);
 
   const getPosition = (x: number, y: number) => ({
     cx: xScale(x),
