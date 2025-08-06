@@ -1,0 +1,592 @@
+[
+  {
+    "txt": "Bills should be translated into simple language, or summaries provided, so that people from all backgrounds can understand the implications of proposed laws. Imagine a farmer from the countryside being able to grasp what a new agricultural bill means for their livelihood.",
+    "tid": 0,
+    "created": "1731488696939",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Use various media platforms, especially radio and mobile technology which are widely accessible, to educate citizens about their rights to participate and how they can do so. This isn’t just information dissemination; it's an invitation for citizens to be co-authors of their country's future.",
+    "tid": 1,
+    "created": "1731488710861",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Develop user-friendly digital platforms where citizens can view bills, provide feedback, and even engage in live discussions or Q&A sessions with bill authors or committee members. This could feel like opening the doors of Parliament to every Kenyan home, making the legislative process a shared journey.",
+    "tid": 2,
+    "created": "1731488724532",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Set up forums, town halls, or mobile units that travel to different counties, especially rural areas, to gather input. Imagine a grandmother in a remote village being able to voice how a health bill might affect her community's access to care.",
+    "tid": 3,
+    "created": "1731488738095",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Provide updates on how public feedback is influencing bill drafts. This transparency can foster a sense of trust and partnership between the government and the people",
+    "tid": 4,
+    "created": "1731488798761",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "After legislation, release reports detailing how public input was used or why it wasn't. This accountability can feel like a dialogue rather than a monologue, showing citizens their contributions are valued.",
+    "tid": 5,
+    "created": "1731488810248",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Create Special programs to engage youth, women, persons with disabilities, and other marginalized groups. This could involve workshops, mentorship programs, or representation in committees. Picture a young student from Kibera seeing their ideas reflected in national policy, inspiring belief in their own potential to effect change.\n",
+    "tid": 6,
+    "created": "1731488829017",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Bills and related documents should be available in local languages. This respects and celebrates Kenya's linguistic diversity, making participation an act of cultural pride.",
+    "tid": 7,
+    "created": "1731488858690",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Does this statement apply to you. I am a Man",
+    "tid": 8,
+    "created": "1731488885341",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Does this statement apply to you. I am a member of Genz",
+    "tid": 9,
+    "created": "1731488897544",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": true,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "The AG office must first conduct civic education about this bill. Not many people know about the public participation bill",
+    "tid": 10,
+    "created": "1731490337662",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "Public Participation must be available for all. Minimum 30 days for submissions at every constituency.",
+    "tid": 14,
+    "created": "1731493959644",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 12
+  },
+  {
+    "txt": "Proper guidance needs to be provided on the format of public participation and the output that stands the test of courts.",
+    "tid": 20,
+    "created": "1731495461669",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 20
+  },
+  {
+    "txt": "Bills should not be rushed to be passed, after public participation on a bill there should be a detailed report on how it went down.",
+    "tid": 22,
+    "created": "1731496193263",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 22
+  },
+  {
+    "txt": "All bill tabled should be from research, a public policy making to aid all Kenyans since all sovereignty belongs to us!",
+    "tid": 25,
+    "created": "1731496456749",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 24
+  },
+  {
+    "txt": "All 47 counties should hold town hall meetings of any bill that is presented.",
+    "tid": 26,
+    "created": "1731496575723",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 24
+  },
+  {
+    "txt": "More so media platforms should be readding every new bill delivered to the Parliament in their broadcasts.",
+    "tid": 28,
+    "created": "1731497279336",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 29
+  },
+  {
+    "txt": "There should be more time allocated for public participation and the views should actually be adhered to.",
+    "tid": 29,
+    "created": "1731497428699",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 33
+  },
+  {
+    "txt": "Public participation should be devolved to MCAs, aggregated by the MP on a town Hall meeting, then reports submitted to the N.Assembly.",
+    "tid": 34,
+    "created": "1731498480652",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 17
+  },
+  {
+    "txt": "I think follow the constitution first.. all bills must be decimated through the media and debated in public baraza for  1 week then voted on",
+    "tid": 36,
+    "created": "1731500783484",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 44
+  },
+  {
+    "txt": "Have it done in all polling stations to ensure we have enough data to support bills or ammendments.",
+    "tid": 38,
+    "created": "1731502166449",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 52
+  },
+  {
+    "txt": "Every bill passed should have , definition of words used and note which dictionary was used.legalism is not standard English .",
+    "tid": 45,
+    "created": "1731503360559",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 57
+  },
+  {
+    "txt": "The bill should have a feedback mechanism where the public is informed, in whichever way, why certain proposals were not accepted.",
+    "tid": 46,
+    "created": "1731503501769",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 5
+  },
+  {
+    "txt": "AG must prepare and share to different media definition of words used in the constitution .ie cooperation means a person= public= government",
+    "tid": 47,
+    "created": "1731503835685",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 57
+  },
+  {
+    "txt": "The people are sovereign and that's why we don't take an oath ,and we employ all the politicians and they should respect the voter.",
+    "tid": 48,
+    "created": "1731504915353",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 58
+  },
+  {
+    "txt": "The sovereign power belongs to the people and we are the employers and in decision making we should be involved.",
+    "tid": 49,
+    "created": "1731505150944",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 58
+  },
+  {
+    "txt": "I support the proposal to establish the office of registrar of public participation. However, it should be independent with a direct budget",
+    "tid": 53,
+    "created": "1731507265390",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "Ample time for public participation the proposal should be introduced to Kenyans 4 weeks before the first public baraza is held",
+    "tid": 54,
+    "created": "1731507474797",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 72
+  },
+  {
+    "txt": "Public Interest trumps all other interests",
+    "tid": 55,
+    "created": "1731507530099",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 72
+  },
+  {
+    "txt": "Public interest is defined under the country being a democracy. It is what majority of the populace want, not what the government thinks",
+    "tid": 58,
+    "created": "1731515932021",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 85
+  },
+  {
+    "txt": "We, the Sovereign, our interests should and must be respected. Ample time for public participation is necessary; the govt is there to serve",
+    "tid": 59,
+    "created": "1731516374751",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 86
+  },
+  {
+    "txt": "Make it mandatory for both national policy, and national deals and projects. It should be considered national interest once collected.",
+    "tid": 60,
+    "created": "1731516983789",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 89
+  },
+  {
+    "txt": "All views should be considered and translated transparently into legal language for application as is to the constitution.",
+    "tid": 61,
+    "created": "1731517111845",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 89
+  },
+  {
+    "txt": "I real agree with this but also feedback mechanism should be  developed.  It should be done at the lowest level of administration",
+    "tid": 63,
+    "created": "1731517196983",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 91
+  },
+  {
+    "txt": "Opinions collected from the public should during the process should measured and included in the laws or regulations that Parliament passes.",
+    "tid": 64,
+    "created": "1731517197300",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 92
+  },
+  {
+    "txt": "Make it illegal for parliament to ignore public participation results being the dissolution of parliament due to absconding of duty.",
+    "tid": 65,
+    "created": "1731517287207",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 89
+  },
+  {
+    "txt": "Adequate Notice period indicating time place and shared in all popular local communication channels including Notice boards",
+    "tid": 66,
+    "created": "1731517526296",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 93
+  },
+  {
+    "txt": "Public participation should be availed to all Kenyans in and outside the country,with the results tabulated in a clear transparent manner.",
+    "tid": 67,
+    "created": "1731518379527",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 95
+  },
+  {
+    "txt": "This issue of public participation  for young youths  we find that youths lack awareness and also we under go ingnorance .",
+    "tid": 68,
+    "created": "1731518420881",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 97
+  },
+  {
+    "txt": "Public participation must be on any new policy that affects Mwananchi. In Mombasa it must be done on any day apart from Friday and Sunday",
+    "tid": 69,
+    "created": "1731518695328",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 98
+  },
+  {
+    "txt": "The people's views must be respected",
+    "tid": 71,
+    "created": "1731519156004",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 98
+  },
+  {
+    "txt": "More sensitisation  for public participation, creating  awareness  and education should be put in place in order to avoid ignorance .",
+    "tid": 72,
+    "created": "1731519805075",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 97
+  },
+  {
+    "txt": "Public participation should start from grassroots n be made public mandatory n advertised on social n mainstream media",
+    "tid": 76,
+    "created": "1731538029370",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 117
+  },
+  {
+    "txt": "allowing individuals to engage in discussions and provide input on policies that impact their communities",
+    "tid": 77,
+    "created": "1731538820939",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 118
+  },
+  {
+    "txt": "The minimum number for participants should be 10000 Kenyans people",
+    "tid": 79,
+    "created": "1731551812933",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 125
+  },
+  {
+    "txt": "The agenda should be simple and clear",
+    "tid": 81,
+    "created": "1731552131446",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 125
+  },
+  {
+    "txt": "Public Participation should be automated and simplified through creation of mobile apps and USSDs to enhance participation.",
+    "tid": 85,
+    "created": "1731557184257",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 128
+  },
+  {
+    "txt": "Feedback on public participation should be made real time such that one is able to click & view result after participating in the exercise.",
+    "tid": 86,
+    "created": "1731557512271",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 128
+  },
+  {
+    "txt": "To enhance effectiveness, public participation should be DEVOLVED to County Governments. All counties to spearhead public participation.",
+    "tid": 87,
+    "created": "1731557908122",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 128
+  },
+  {
+    "txt": "Create a more centralized, accessible platform where citizens can share views on national and county policies.",
+    "tid": 88,
+    "created": "1731558637987",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 130
+  },
+  {
+    "txt": "Boost inclusivity through outreach in rural and low-income areas providing civic education on how citizens can actively engage in governance",
+    "tid": 89,
+    "created": "1731558903684",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 130
+  },
+  {
+    "txt": "Proper and Civic Education on a particular bill should precede the public participation exercise.",
+    "tid": 90,
+    "created": "1731558992140",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 128
+  },
+  {
+    "txt": "Government can improve by giving timely clear responses to public feedback, boosting satisfaction and encouraging more citizen participation",
+    "tid": 91,
+    "created": "1731558997289",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 130
+  },
+  {
+    "txt": "Create a public participation app for citizens to give input, take surveys, and view proposals, boosting engagement, especially among youth",
+    "tid": 92,
+    "created": "1731559114390",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 130
+  },
+  {
+    "txt": "Public Participation is a constitutional right. Devolve Public Participation. Use all forms of Media and all languages to inform the public",
+    "tid": 93,
+    "created": "1731560913156",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 134
+  },
+  {
+    "txt": "Public participation should come after mass civic education on the contents and effects of any proposed bill and use social media to amplify",
+    "tid": 94,
+    "created": "1731561158971",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 135
+  },
+  {
+    "txt": "Set a minimum number of participants from the public to participate",
+    "tid": 95,
+    "created": "1740421478078",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 500
+  },
+  {
+    "txt": "Have civic education activities about a bill before it is opened to public participation so that people know what the bill implictions are",
+    "tid": 96,
+    "created": "1740421626275",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 500
+  },
+  {
+    "txt": "Conduct PP forums in each Ward and use churches as venues",
+    "tid": 97,
+    "created": "1740421683324",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 500
+  }
+]
