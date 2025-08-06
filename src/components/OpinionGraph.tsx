@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import * as d3 from "d3";
 import { GroupHulls } from "./GroupHulls"; // adjust path if needed
 
@@ -9,6 +9,15 @@ const globals = {
 function OpinionGraph({ comments, math, Strings }: any) {
   const { groupClusters = math["group-clusters"], baseClusters = math["base-clusters"] } = math;
 
+  const [config, setConfig] = useState({ flipX: false, flipY: false });
+
+  useEffect(() => {
+    fetch("/data/config.json")
+      .then((res) => res.json())
+      .then((data) => setConfig(data))
+      .catch(() => {}); // fallback silently
+  }, []);
+
   const ptptois = baseClusters.id.map((pid: number, i: number) => ({
     pid,
     x: baseClusters.x[i],
@@ -16,9 +25,16 @@ function OpinionGraph({ comments, math, Strings }: any) {
     isSelf: pid === 0, // highlight current user if desired
   }));
 
-  // Create scale to map from [-2, 2] to [0, globals.side]
-  const xScale = d3.scaleLinear().domain([-2, 2]).range([0, globals.side]);
-  const yScale = d3.scaleLinear().domain([-2, 2]).range([globals.side, 0]);
+  // Create scale to map from [-2, 2] to [0, globals.side], optionally flipping
+  const xScale = d3
+    .scaleLinear()
+    .domain(config.flipX ? [2, -2] : [-2, 2])
+    .range([0, globals.side]);
+
+  const yScale = d3
+    .scaleLinear()
+    .domain(config.flipY ? [-2, 2] : [2, -2])
+    .range([0, globals.side]);
 
   const getPosition = (x: number, y: number) => ({
     cx: xScale(x),
