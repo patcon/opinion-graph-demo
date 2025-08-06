@@ -9,6 +9,9 @@ function App() {
   const [math, setMath] = useState<any>(null);
   const [config, setConfig] = useState<{ flipX: boolean; flipY: boolean }>({ flipX: false, flipY: false });
 
+  // Unified selectedTab state: "majority" or a group number (e.g., 0, 1, ...)
+  const [selectedTab, setSelectedTab] = useState<"majority" | number>("majority");
+
   useEffect(() => {
     Promise.all([
       fetch(`/data/${DATASET_ID}/comments.json`).then((res) => res.json()),
@@ -23,7 +26,15 @@ function App() {
 
   if (!comments || !math) return <p>Loading…</p>;
 
-  return <OpinionGraph comments={comments} math={math} config={config} />;
+  return (
+    <OpinionGraph
+      comments={comments}
+      math={math}
+      config={config}
+      selectedTab={selectedTab}
+      setSelectedTab={setSelectedTab}
+    />
+  );
 }
 
 export default App;
