@@ -24,7 +24,7 @@ export function Viewer() {
   const [selectedTid, setSelectedTid] = useState<number | null>(null);
 
   useEffect(() => {
-    const basePath = `/data/${dataset}`;
+    const basePath = `${import.meta.env.BASE_URL}data/${dataset}`;
 
     fetch(`${basePath}/math.json`)
       .then((res) => res.json())
