@@ -8,10 +8,14 @@ export function GroupHulls({
   ptptois = [],
   groupClusters = [],
   getPosition,
+  selectedTab,
+  setSelectedTab,
 }: {
   ptptois: any[];
   groupClusters: any[];
   getPosition: (x: number, y: number) => { cx: number; cy: number };
+  selectedTab: "majority" | number;
+  setSelectedTab: (tab: "majority" | number) => void;
 }) {
   const getPointsForGroup = (memberIds: number[]) => {
     return memberIds
@@ -29,14 +33,18 @@ export function GroupHulls({
         const hullPoints = d3.polygonHull(getPointsForGroup(group.members));
         if (!hullPoints) return null;
 
+        const isSelected = selectedTab === (group.id ?? i);
+
         return (
           <polygon
             key={group.id || i}
             points={hullPoints.map((p) => p.join(",")).join(" ")}
-            fill="#000"
-            fillOpacity={0.08}
-            stroke="#ccc"
-            strokeWidth={1}
+            fill={isSelected ? "#00f" : "#000"}
+            fillOpacity={isSelected ? 0.12 : 0.08}
+            stroke={isSelected ? "#00f" : "#ccc"}
+            strokeWidth={isSelected ? 2 : 1}
+            style={{ cursor: "pointer" }}
+            onClick={() => setSelectedTab(group.id ?? i)}
           />
         );
       })}

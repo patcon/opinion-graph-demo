@@ -51,7 +51,13 @@ function OpinionGraph({ comments, math, config = { flipX: false, flipY: false },
     <div>
       <svg width={globals.width} height={globals.height} viewBox={`0 0 ${globals.width} ${globals.height}`}>
         <Axes />
-        <GroupHulls ptptois={ptptois} groupClusters={groupClusters} getPosition={getPosition} />
+        <GroupHulls
+          ptptois={ptptois}
+          groupClusters={groupClusters}
+          getPosition={getPosition}
+          selectedTab={selectedTab}
+          setSelectedTab={setSelectedTab}
+        />
         <Participants ptptois={ptptois} getPosition={getPosition} />
         <GroupLabels groupClusters={groupClusters} groupVotes={groupVotes} getPosition={getPosition} />
       </svg>

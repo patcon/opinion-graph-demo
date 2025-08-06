@@ -24,14 +24,14 @@ export function StatementSelector({
   const statementButtons = statementIds.map((tid: number) => {
     const text = comments[tid]?.comment ?? `#${tid}`;
     return (
-      <button key={tid} style={{ display: "block", marginBottom: 4 }}>
+      <button key={tid} style={{ marginRight: 8, marginBottom: 8 }}>
         {text}
       </button>
     );
   });
 
   return (
-    <div style={{ marginTop: 20, display: "flex", gap: 24 }}>
+    <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 12 }}>
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
         <button
           onClick={() => setSelectedTab("majority")}
@@ -53,7 +53,7 @@ export function StatementSelector({
           </button>
         ))}
       </div>
-      <div>{statementButtons}</div>
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>{statementButtons}</div>
     </div>
   );
 }
