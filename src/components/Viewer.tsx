@@ -18,37 +18,48 @@ export function Viewer() {
 
   const [math, setMath] = useState(null);
   const [comments, setComments] = useState(null);
-  const [conversation, setConversation] = useState<{ topic?: string } | null>(null);
+  const [conversation, setConversation] = useState(null);
+  const [availableDatasets, setAvailableDatasets] = useState<string[]>([]);
   const [selectedTab, setSelectedTab] = useState<"majority" | number>("majority");
   const [selectedTid, setSelectedTid] = useState<number | null>(null);
 
   useEffect(() => {
     const basePath = `${import.meta.env.BASE_URL}data/${dataset}`;
 
-    fetch(`${basePath}/math.json`)
-      .then((res) => res.json())
-      .then(setMath);
-
-    fetch(`${basePath}/comments.json`)
-      .then((res) => res.json())
-      .then(setComments);
-
-    fetch(`${basePath}/conversation.json`)
-      .then((res) => res.json())
-      .then(setConversation);
+    fetch(`${basePath}/math.json`).then((res) => res.json()).then(setMath);
+    fetch(`${basePath}/comments.json`).then((res) => res.json()).then(setComments);
+    fetch(`${basePath}/conversation.json`).then((res) => res.json()).then(setConversation);
   }, [dataset]);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/index.json`)
+      .then((res) => res.json())
+      .then(setAvailableDatasets);
+  }, []);
+
+  const handleChangeDataset = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selected = e.target.value;
+    const newParams = new URLSearchParams(window.location.search);
+    newParams.set("dataset", selected);
+    window.location.search = newParams.toString();
+  };
 
   if (!math || !comments || !conversation) {
     return <p>Loading dataset <code>{dataset}</code>…</p>;
   }
 
   return (
-    <div style={{ maxWidth: "750px", margin: "0 auto", padding: "1rem" }}>
-      {conversation.topic && (
-        <h2 style={{ textAlign: "center", marginBottom: "1rem" }}>
-          {conversation.topic}
-        </h2>
-      )}
+    <div>
+      <div style={{ position: "absolute", top: 10, left: 10, zIndex: 10 }}>
+        <select value={dataset} onChange={handleChangeDataset}>
+          {availableDatasets.map((d) => (
+            <option key={d} value={d}>
+              {`${d.slice(0, 8)}…`} {/* fallback */}
+            </option>
+          ))}
+        </select>
+      </div>
+      <h2 style={{ textAlign: "center" }}>{conversation.topic}</h2>
       <OpinionGraph
         comments={comments}
         math={math}
