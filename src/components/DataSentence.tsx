@@ -1,5 +1,3 @@
-import React from "react";
-
 export function DataSentence({
   selectedTab,
   selectedTid,
@@ -13,7 +11,7 @@ export function DataSentence({
 }) {
   if (selectedTid === null) return null;
 
-  const comment = comments.find(c => c.tid === selectedTid);
+  const comment = comments.find((c: any) => c.tid === selectedTid);
   if (!comment) return null;
 
   const isMajority = selectedTab === "majority";
@@ -21,6 +19,7 @@ export function DataSentence({
   let agree = 0;
   let disagree = 0;
   let saw = 0;
+  // @ts-ignore
   let n = 0;
 
   if (isMajority) {
@@ -42,8 +41,6 @@ export function DataSentence({
     saw = votes?.S ?? 0;
     n = groupVotes?.["n-members"] ?? saw;
   }
-
-  const pass = saw - (agree + disagree);
 
   const percent = ((agree || disagree) && saw)
     ? Math.round(((agree > disagree ? agree : disagree) / saw) * 100)

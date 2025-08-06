@@ -1,4 +1,3 @@
-import React from "react";
 import * as d3 from "d3";
 
 /**
@@ -30,6 +29,7 @@ export function GroupHulls({
   return (
     <g id="group-hulls">
       {groupClusters.map((group, i) => {
+        // @ts-ignore
         const hullPoints = d3.polygonHull(getPointsForGroup(group.members));
         if (!hullPoints) return null;
 

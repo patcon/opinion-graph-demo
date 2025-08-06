@@ -1,4 +1,3 @@
-import React from "react";
 import * as d3 from "d3";
 import { GroupHulls } from "./GroupHulls";
 import { StatementSelector } from "./StatementSelector";
@@ -40,7 +39,9 @@ function OpinionGraph({
     isSelf: pid === 0,
   }));
 
+  // @ts-ignore
   const xExtent = d3.extent(baseClusters.x) as [number, number];
+  // @ts-ignore
   const yExtent = d3.extent(baseClusters.y) as [number, number];
 
   const pad = 0.1;
