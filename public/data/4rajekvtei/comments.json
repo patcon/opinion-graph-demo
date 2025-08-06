@@ -1,0 +1,492 @@
+[
+  {
+    "txt": "Svoje záujmy nesmieme presadzovať vyhrážkami a násilím.",
+    "tid": 0,
+    "created": "1693739716875",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "To, že s niekým nesúhlasím neznamená, že by sa nemal zapájať do verejnej diskusie.",
+    "tid": 2,
+    "created": "1693739776963",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Mali by sme byť zjednotení v rozmanitosti.",
+    "tid": 3,
+    "created": "1693739800724",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Chcem, aby sme sa vyhli občianskej vojne a rozpadu spoločnosti.",
+    "tid": 4,
+    "created": "1693739816528",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Slušný a vecný dialóg zmierňuje napätie a konflikty.",
+    "tid": 5,
+    "created": "1693739821002",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Každý má právo slobodne presadzovať svoje požiadavky.",
+    "tid": 6,
+    "created": "1693739836450",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Spája nás uznávanie základných ľudských práv.",
+    "tid": 7,
+    "created": "1693739860137",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Všetci sme na jednej lodi.",
+    "tid": 8,
+    "created": "1693739894497",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Konflikt medzi liberálmi a konzervatívcami je neraz zbytočne nafukovaný.",
+    "tid": 9,
+    "created": "1693739902660",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Spoločným menovateľom mnohých konfliktov je spor medzi „elitami” a bežnými ľuďmi.",
+    "tid": 10,
+    "created": "1693739918594",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Ak nemalú časť spoločnosti vylučujeme z demokratických procesov, nečudujme sa narastajúcej nevraživosti.",
+    "tid": 11,
+    "created": "1693739926484",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Je tu konflikt medzi systémovo vylučovanými a tými, ktorým to až tak neprekáža (skôr vyhovuje).",
+    "tid": 12,
+    "created": "1693739932970",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Častovanie sa nálepkami dezolát, slniečkar a pod. k ničomu nevedie.",
+    "tid": 13,
+    "created": "1693739952948",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Spoločenský zmier podkopávajú radikáli, ktorí naberajú na sile.",
+    "tid": 14,
+    "created": "1693739957569",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "V spoločnosti je zásadný civilizačný konflikt - Západ vs. Východ",
+    "tid": 15,
+    "created": "1693739961986",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Slovensko má problém s kmeňovým myslením „my” vs. „oni”",
+    "tid": 17,
+    "created": "1693739985456",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Zásadný rozdiel je medzi podporovateľmi občianskeho a národného princípu.",
+    "tid": 18,
+    "created": "1693739994935",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Pociťujem konflikt medzi obyvateľmi miest a vidieku.",
+    "tid": 19,
+    "created": "1693740000061",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Silný je generačný konflikt medzi mladými a starými.",
+    "tid": 20,
+    "created": "1693740007340",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Konflikt medzi kapitálom a proletariátom nevymizol.",
+    "tid": 21,
+    "created": "1693740015834",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Nenechávajme sa zbytočne rozdeľovať!",
+    "tid": 22,
+    "created": "1693740020048",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Ako voliči by sme nemali naskočiť na vlnu nenávisti.",
+    "tid": 23,
+    "created": "1693740025521",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Musíme mať na pamäti, že tu budeme spolu žiť aj po voľbách.",
+    "tid": 24,
+    "created": "1693740029008",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Aj keď si myslím, že druhá strana môjho brehu je celkom mimo, má právo byť aktívna v demokracii.",
+    "tid": 25,
+    "created": "1693740053706",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Spája nás láska k našej rodnej krajine.",
+    "tid": 26,
+    "created": "1693740081798",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Chcem žiť v slobodnej a spravodlivej spoločnosti.",
+    "tid": 27,
+    "created": "1693740112957",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Sloboda, rovnosť, solidarita!",
+    "tid": 28,
+    "created": "1693740798470",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  },
+  {
+    "txt": "Elita, ktora vola po prave zeny na rozhodovanie o svojom tele, si musi uznat zlyhanie v oblasti tlaku na vakcinaciu.",
+    "tid": 29,
+    "created": "1693763560193",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 10
+  },
+  {
+    "txt": "Úplná odluka cirkvi od štátu by vyriešila mnohé problémy.",
+    "tid": 31,
+    "created": "1693768233465",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 28
+  },
+  {
+    "txt": "Základom je sloboda slova a právo vyjadriť sa",
+    "tid": 32,
+    "created": "1693769186781",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 31
+  },
+  {
+    "txt": "Spoločnosť je plná úchylov a zvrátených ludí ktorí si chcú zlegitimizovať svoje zvrátenosti",
+    "tid": 33,
+    "created": "1693772540760",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 36
+  },
+  {
+    "txt": "Decentralizácia (lepšie prerozdelenie financií medzi mestá, obce) by pomohlo priblížiť politiku a zlepšiť verejný priestor ľuďom.",
+    "tid": 36,
+    "created": "1693824363916",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 95
+  },
+  {
+    "txt": "Konflikt v spoločnosti majú na svedomí mimovládky platené zo zahraničia, ich ľudia v politických funkciách a angažovaní klamárski novinári.",
+    "tid": 37,
+    "created": "1693826488405",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 96
+  },
+  {
+    "txt": "Slovensko si nevycistilo hystoriu s komunistickej doby. Za to zlo nie je nikto potrestany.To dava povzbudenie tym co su potomci",
+    "tid": 38,
+    "created": "1693830922423",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 97
+  },
+  {
+    "txt": "láska k rodnej vlasti sa u liberalizmom nasiaknutým pohlavárom zamieňa za vlastizradu",
+    "tid": 39,
+    "created": "1694111907931",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 124
+  },
+  {
+    "txt": "Pandémia a prístup k Ukrajine nám ukázal nakoľko tolerantná je časť slovenskej spoločnosti tzv. \"demokrati\" k rôznorodým názorom.",
+    "tid": 40,
+    "created": "1694116792557",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 137
+  },
+  {
+    "txt": "Dialóg tu nefunguje z viny liberálov, ktorí fanaticky presadzujú iba svoje názory, nevidia v ničom okrem seba alternatívu.",
+    "tid": 41,
+    "created": "1694118015654",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 143
+  },
+  {
+    "txt": "Gender ideológia nepatrí do škôl a medzi mladých. Strácajú sa takto šikovný mladý ľudia ktorý, môžu tvoriť lepšiu spoločnosť.",
+    "tid": 42,
+    "created": "1694119796565",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 145
+  },
+  {
+    "txt": "Všetky sociálne siete by mali byt od 26rokov kedy mladý človek už viac dospeje.",
+    "tid": 43,
+    "created": "1694119852109",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 145
+  },
+  {
+    "txt": "Chyba čas rodičom aby sa mohli venovať rodine a deťom. Som za zníženie dani pre firmy a radikálne zvysenie minimálnej mzdy.",
+    "tid": 44,
+    "created": "1694119966979",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 145
+  },
+  {
+    "txt": "Miluj stranu (politickú) blížneho svojho, ako svoju vlastnú.",
+    "tid": 45,
+    "created": "1694301189306",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 205
+  },
+  {
+    "txt": "Každá predstava o vracaní sa k tradičným, už poznaným, konzervatívnym hodnotám je iba naivný eskapizmus.",
+    "tid": 46,
+    "created": "1694352765539",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 208
+  },
+  {
+    "txt": "Diskusia sa má viesť iba s ľuďmi, ktorí sa správajú slušne-NeposmievajúSa,Neskáču  DoReči,NenadávajúSi,NieSúAgresívni,NešíriaHejtyAniDezinfo",
+    "tid": 47,
+    "created": "1694353126187",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 208
+  },
+  {
+    "txt": "Polarizované strany by mali viesť dialóg iba pod podmienkov, že obe strany budú otvorené a vedia zakročiť v prípade vyslovenej nepravdy",
+    "tid": 48,
+    "created": "1694353340873",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 208
+  },
+  {
+    "txt": "Názory ľudí na naše zahraničnopolitické smerovanie sú formované entitami, ktorým nezáleží na záujmoch nášho štátu.",
+    "tid": 50,
+    "created": "1694411097220",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 222
+  },
+  {
+    "txt": "Niekedy je lepsie nezachranovat potapajucu sa lod, obcianska vojna by mohla",
+    "tid": 52,
+    "created": "1694419056152",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 226
+  },
+  {
+    "txt": "Myslim ze nepotrebujeme politikov ale radsej individualov ktori zlepsia prostredie na lokalnej urovni - danovy raj im rozviaze ruky.",
+    "tid": 53,
+    "created": "1694419232026",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 226
+  },
+  {
+    "txt": "Mohli by sme -vediet pocuvat -vediet sa mylit(tym sa ucime) -vediet sa vcitit do koze druheho -pouzivat v diskusii overitelne informacie",
+    "tid": 57,
+    "created": "1694818792472",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 231
+  },
+  {
+    "txt": "V spoločnosti nevidno známky názorovej plurality Človek prejavujúci plurálne názory riskuje totálne vyčlenenie zo spoločnosti.",
+    "tid": 58,
+    "created": "1695121103068",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "sk",
+    "pid": 0
+  }
+]
