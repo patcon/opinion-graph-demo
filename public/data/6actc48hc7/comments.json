@@ -1,0 +1,432 @@
+[
+  {
+    "txt": "I feel wary of artificial intelligence in deliberative processes.",
+    "tid": 4,
+    "created": "1750173121189",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am a European",
+    "tid": 5,
+    "created": "1750173130963",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I am afraid of AI.",
+    "tid": 6,
+    "created": "1750173155922",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I have read the paper in full.",
+    "tid": 7,
+    "created": "1750173175457",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I often distrust the word \"scale\"",
+    "tid": 8,
+    "created": "1750173217621",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "The dimensions of scale presented feel helpful.",
+    "tid": 9,
+    "created": "1750173274838",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "I have concerns about AI facilitation.",
+    "tid": 10,
+    "created": "1750173361198",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "How will we know it works - what standards, metadata, tests need to be developed to provide unbiased assurances for these scaling tools?",
+    "tid": 11,
+    "created": "1750173437182",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "We need to strengthen offline democracy",
+    "tid": 12,
+    "created": "1750173448217",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 3
+  },
+  {
+    "txt": "Multi tasking this way is a bit difficult for me ...",
+    "tid": 13,
+    "created": "1750173452826",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 6
+  },
+  {
+    "txt": "Scaling deep means deliberative democracy can be normalised in the mindset of the public sphere in the same way elections already are.",
+    "tid": 14,
+    "created": "1750173694090",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 5
+  },
+  {
+    "txt": "LLM technology is the only way we can economically allow everyone to participate in frequent deliberative process",
+    "tid": 15,
+    "created": "1750173763738",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 7
+  },
+  {
+    "txt": "LLMs are less biased than humans in interpreting data at scale",
+    "tid": 16,
+    "created": "1750173815264",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 7
+  },
+  {
+    "txt": "Accessibility is very important to me for AI-enhanced use - we need youth voice, busy person voice, and all-language voice.",
+    "tid": 17,
+    "created": "1750173836999",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "Scaling deliberation is more of a political issue rather than a technological limitation",
+    "tid": 18,
+    "created": "1750173909517",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 7
+  },
+  {
+    "txt": "I feel that \"power\" is one of the most important considerations.",
+    "tid": 19,
+    "created": "1750173918077",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "We can't pay for civic AI infrastructure with any single current way of paying for tech.",
+    "tid": 20,
+    "created": "1750173998067",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 4
+  },
+  {
+    "txt": "If I could, I would push a button to pause AI development where it stands.",
+    "tid": 21,
+    "created": "1750174086164",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "AI is better suited to the transparent filtering/clustering tool at the early stages of a deliberative process. Human always after machine.",
+    "tid": 22,
+    "created": "1750174502976",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 9
+  },
+  {
+    "txt": "we should only use AI for a role when we absolutely can't find a human willing/eager to perform that role",
+    "tid": 23,
+    "created": "1750174659298",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Human always before AND after machine",
+    "tid": 24,
+    "created": "1750175030338",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 5
+  },
+  {
+    "txt": "The word scale is often used to dilute an innovation that has proved itself but is small or expensive",
+    "tid": 25,
+    "created": "1750175383252",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 27
+  },
+  {
+    "txt": "The problem with democratic crisis is not technological its cultural, therefore AI is not well placed to navigate a robust societal solution",
+    "tid": 26,
+    "created": "1750175428730",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 16
+  },
+  {
+    "txt": "Artificialness is a dead end",
+    "tid": 27,
+    "created": "1750175488377",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 18
+  },
+  {
+    "txt": "We're just getting to grips with confidently using deliberative, need grounding before charging into AI or we risk losing political trust",
+    "tid": 28,
+    "created": "1750175494970",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 24
+  },
+  {
+    "txt": "I'm hesitatingly curious around AI supporting some of the work to make the use of deliberative processes easier and less costly to deliver",
+    "tid": 29,
+    "created": "1750175520675",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 50
+  },
+  {
+    "txt": "AI for scaling deliberation is diverting resources from building foundational democratic and community resilience in a time of polycrisis",
+    "tid": 30,
+    "created": "1750175623076",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 42
+  },
+  {
+    "txt": "AI tools offer the opportunity to create meso-level publics which can bridge the mini - maxi public gap in deliberative democratic theory",
+    "tid": 31,
+    "created": "1750175641077",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 47
+  },
+  {
+    "txt": "I'm concerned that we will breed out analytical, summarising, and facilitation skills in humans, already seeing this in students",
+    "tid": 32,
+    "created": "1750175742081",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 24
+  },
+  {
+    "txt": "Using AI to scale is not a regenerative practice and hard to justify in the context of deliberation to address the climate crisis",
+    "tid": 33,
+    "created": "1750175816286",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 42
+  },
+  {
+    "txt": "AI could lead to deskilling of facilitators, for example in our ability to synthesise and frame information",
+    "tid": 34,
+    "created": "1750175928202",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 42
+  },
+  {
+    "txt": "I am concerned that we relegating the role of \"storyteller\" to LLMs without thought.",
+    "tid": 35,
+    "created": "1750175949830",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "AI SHOULD BE A TOOL. A HELPER, NOT MADE INTO A. NEW MASTER",
+    "tid": 36,
+    "created": "1750175992769",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 48
+  },
+  {
+    "txt": "Human facilitators are over praised, and while skilled facilitation is irreplaceable, AI can be a useful aid for many of us",
+    "tid": 37,
+    "created": "1750176061479",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 26
+  },
+  {
+    "txt": "Efficiency and cost-reduction are risky narratives in this context. Democracy is complex and costly - no shortcuts.",
+    "tid": 38,
+    "created": "1750176116971",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 5
+  },
+  {
+    "txt": "AI is a black box, and antithetical to transparency when used in a deciding or selecting role. (Not excluding supportive roles.)",
+    "tid": 39,
+    "created": "1750176235474",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 56
+  },
+  {
+    "txt": "AI has a place but should never replace human connection. Resolving the polycrisis needs more humanness, not less.",
+    "tid": 40,
+    "created": "1750176249300",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 5
+  },
+  {
+    "txt": "The real scaling is cognitive. The world is too complex for any one brain. We to define what it is for a community to understand something.",
+    "tid": 41,
+    "created": "1750176302342",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 56
+  },
+  {
+    "txt": "I trust AI in the initiation phase of deliberation, but would prefer humans to direct sensemaking.",
+    "tid": 42,
+    "created": "1750176584428",
+    "quote_src_url": null,
+    "is_seed": true,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "Enhancing citizen capacity— all delib scaling should evolve in parallel with educational reform [crit. thinking/citizenship]",
+    "tid": 43,
+    "created": "1750177253390",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 9
+  },
+  {
+    "txt": "I greatly value the people who are demonizing AI, even if I think there are thoughtful ways to use it.",
+    "tid": 44,
+    "created": "1750178633312",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "AI is the first tool we have that can also be a storyteller.",
+    "tid": 45,
+    "created": "1750178724710",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  },
+  {
+    "txt": "AI is better and more sustainably conceptualized as a partner more than a tool.",
+    "tid": 46,
+    "created": "1750178755196",
+    "quote_src_url": null,
+    "is_seed": false,
+    "is_meta": false,
+    "lang": "en",
+    "pid": 0
+  }
+]
