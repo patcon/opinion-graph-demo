@@ -17,11 +17,11 @@ const ENDPOINTS = {
 const conversationId = process.argv[2];
 
 if (!conversationId) {
-  console.error('❌ Please provide a conversation ID.\nUsage: node fetch-polis-data.js <conversation_id>\nOR npm run fetch -- <conversation_id>');
+  console.error('❌ Please provide a conversation ID.\nUsage: node scripts/fetch-polis-data.js <conversation_id>\nOR npm run fetch -- <conversation_id>');
   process.exit(1);
 }
 
-const outputDir = path.join(__dirname, 'public', 'data', conversationId);
+const outputDir = path.join(__dirname, '..', 'public', 'data', conversationId);
 
 async function fetchAndSave(name, endpoint) {
   const url = `${POLIS_API_BASE}/${endpoint}?conversation_id=${conversationId}`;
