@@ -114,7 +114,7 @@ function OpinionGraph({
 
 function Participants({ ptptois = [], getPosition }: any) {
   return (
-    <g id="participants">
+    <g id="participants" style={{ pointerEvents: "none" }}>
       {ptptois.map((ptpt: any, i: number) => {
         const { cx, cy } = getPosition(ptpt.x, ptpt.y);
         return (
@@ -133,7 +133,7 @@ function Participants({ ptptois = [], getPosition }: any) {
 
 function GroupLabels({ groupClusters = [], groupVotes = {}, getPosition }: any) {
   return (
-    <g id="group-labels">
+    <g id="group-labels" style={{ pointerEvents: "none" }}>
       {groupClusters.map((group: any, i: number) => {
         const { cx, cy } = getPosition(group.center[0], group.center[1]);
         const nMembers = groupVotes?.[group.id]?.["n-members"] ?? group.members.length;
@@ -162,7 +162,7 @@ function Axes() {
   const midX = globals.width / 2;
   const midY = globals.height / 2;
   return (
-    <g id="axes">
+    <g id="axes" style={{ pointerEvents: "none" }}>
       <line x1={0} y1={midY} x2={globals.width} y2={midY} stroke="#ccc" />
       <line x1={midX} y1={0} x2={midX} y2={globals.height} stroke="#ccc" />
     </g>

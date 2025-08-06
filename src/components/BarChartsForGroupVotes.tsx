@@ -84,7 +84,7 @@ function BarChartCompact({ selectedTid, groupVotes, translate }: {
   const pass = (passes / nMembers) * w;
 
   return (
-    <g transform={`translate(${translate[0]}, ${translate[1]})`}>
+    <g transform={`translate(${translate[0]}, ${translate[1]})`} style={{ pointerEvents: "none" }}>
       <rect x={0.5} width={w + 0.5} height={10} fill={"white"} stroke={"rgb(180,180,180)"} />
       <rect x={0.5} width={agree} y={0.5} height={9} fill={globals.colors.agree} />
       <rect x={0.5 + agree} width={disagree} y={0.5} height={9} fill={globals.colors.disagree} />
