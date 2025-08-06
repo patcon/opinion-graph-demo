@@ -32,6 +32,8 @@ jobs:
         run: npm install
 
       - name: Build site
+        env:
+          VITE_GITHUB_REPO_NAME: ${{ github.event.repository.name }}
         run: npm run build
 
       - name: Upload artifact
