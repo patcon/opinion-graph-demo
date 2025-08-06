@@ -13,8 +13,25 @@ export function StatementSelector({
 }) {
   const groupClusters = math["group-clusters"] ?? [];
 
+  const statementIds = (() => {
+    if (selectedTab === "majority") {
+      return (math["consensus"]?.["agree"] ?? []).map((d: any) => d.tid);
+    } else {
+      return (math["repness"]?.[selectedTab] ?? []).map((d: any) => d.tid);
+    }
+  })();
+
+  const statementButtons = statementIds.map((tid: number) => {
+    const text = comments[tid]?.comment ?? `#${tid}`;
+    return (
+      <button key={tid} style={{ display: "block", marginBottom: 4 }}>
+        {text}
+      </button>
+    );
+  });
+
   return (
-    <div style={{ marginTop: 20 }}>
+    <div style={{ marginTop: 20, display: "flex", gap: 24 }}>
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
         <button
           onClick={() => setSelectedTab("majority")}
@@ -36,6 +53,7 @@ export function StatementSelector({
           </button>
         ))}
       </div>
+      <div>{statementButtons}</div>
     </div>
   );
 }
