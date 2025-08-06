@@ -37,6 +37,8 @@ export function StatementSelector({
           onClick={() => setSelectedTab("majority")}
           style={{
             fontWeight: selectedTab === "majority" ? "bold" : "normal",
+              backgroundColor: selectedTab === "majority" ? "#0000FF1F" : "#fff",
+              borderColor: selectedTab === "majority" ? "#00f" : "#ccc",
           }}
         >
           Majority Opinion
@@ -47,6 +49,8 @@ export function StatementSelector({
             onClick={() => setSelectedTab(group.id ?? i)}
             style={{
               fontWeight: selectedTab === (group.id ?? i) ? "bold" : "normal",
+              backgroundColor: selectedTab === (group.id ?? i) ? "#0000FF1F" : "#fff",
+              borderColor: selectedTab === (group.is ?? i) ? "#00f" : "#ccc",
             }}
           >
             {String.fromCharCode(65 + i)}
