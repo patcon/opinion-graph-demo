@@ -1,12 +1,20 @@
 import React from "react";
 import * as d3 from "d3";
+import { GroupHulls } from "./GroupHulls"; // adjust path if needed
 
 const globals = {
   side: 900,
 };
 
 function OpinionGraph({ comments, math, Strings }: any) {
-  const { ptptois = [], groupClusters = math["group-clusters"], baseClusters = math["base-clusters"] } = math;
+  const { groupClusters = math["group-clusters"], baseClusters = math["base-clusters"] } = math;
+
+  const ptptois = baseClusters.id.map((pid: number, i: number) => ({
+    pid,
+    x: baseClusters.x[i],
+    y: baseClusters.y[i],
+    isSelf: pid === 0, // highlight current user if desired
+  }));
 
   // Create scale to map from [-2, 2] to [0, globals.side]
   const xScale = d3.scaleLinear().domain([-2, 2]).range([0, globals.side]);
@@ -20,6 +28,7 @@ function OpinionGraph({ comments, math, Strings }: any) {
   return (
     <svg width={globals.side} height={globals.side}>
       <Axes />
+      <GroupHulls ptptois={ptptois} groupClusters={groupClusters} getPosition={getPosition} />
       <Participants ptptois={ptptois} getPosition={getPosition} />
       <GroupLabels groupClusters={groupClusters} getPosition={getPosition} />
     </svg>
