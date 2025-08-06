@@ -17,14 +17,32 @@ export function DataSentence({
   if (!comment) return null;
 
   const isMajority = selectedTab === "majority";
-  const repness = math.repness?.[selectedTab]?.find((d: any) => d.tid === selectedTid);
-  const groupVotes = math["group-votes"]?.[selectedTab];
-  const votes = groupVotes?.votes?.[selectedTid];
 
-  const agree = votes?.A ?? 0;
-  const disagree = votes?.D ?? 0;
-  const saw = votes?.S ?? 0;
-  const n = groupVotes?.["n-members"] ?? saw;
+  let agree = 0;
+  let disagree = 0;
+  let saw = 0;
+  let n = 0;
+
+  if (isMajority) {
+    const consensusAgree = math.consensus?.agree?.find((d: any) => d.tid === selectedTid);
+    const consensusDisagree = math.consensus?.disagree?.find((d: any) => d.tid === selectedTid);
+    const entry = consensusAgree || consensusDisagree;
+
+    if (entry) {
+      n = entry["n-trials"];
+      saw = entry["n-trials"];
+      agree = consensusAgree ? entry["n-success"] : 0;
+      disagree = consensusDisagree ? entry["n-success"] : 0;
+    }
+  } else {
+    const groupVotes = math["group-votes"]?.[selectedTab];
+    const votes = groupVotes?.votes?.[selectedTid];
+    agree = votes?.A ?? 0;
+    disagree = votes?.D ?? 0;
+    saw = votes?.S ?? 0;
+    n = groupVotes?.["n-members"] ?? saw;
+  }
+
   const pass = saw - (agree + disagree);
 
   const percent = ((agree || disagree) && saw)
