@@ -8,7 +8,7 @@ const globals = {
 };
 
 function OpinionGraph({ comments, math, Strings }: any) {
-  const { groupClusters = math["group-clusters"], baseClusters = math["base-clusters"] } = math;
+  const { groupClusters = math["group-clusters"], baseClusters = math["base-clusters"], ["group-votes"]: groupVotes = math["group-votes"] } = math;
 
   const [config, setConfig] = useState({ flipX: false, flipY: false });
 
@@ -46,7 +46,7 @@ function OpinionGraph({ comments, math, Strings }: any) {
       <Axes />
       <GroupHulls ptptois={ptptois} groupClusters={groupClusters} getPosition={getPosition} />
       <Participants ptptois={ptptois} getPosition={getPosition} />
-      <GroupLabels groupClusters={groupClusters} getPosition={getPosition} />
+      <GroupLabels groupClusters={groupClusters} groupVotes={groupVotes} getPosition={getPosition} />
     </svg>
   );
 }
@@ -70,11 +70,13 @@ function Participants({ ptptois = [], getPosition }: any) {
   );
 }
 
-function GroupLabels({ groupClusters = [], getPosition }: any) {
+function GroupLabels({ groupClusters = [], groupVotes = {}, getPosition }: any) {
   return (
     <g id="group-labels">
       {groupClusters.map((group: any, i: number) => {
         const { cx, cy } = getPosition(group.center[0], group.center[1]);
+        const nMembers = groupVotes?.[group.id]?.["n-members"] ?? group.members.length;
+        const groupLabel = `Group ${String.fromCharCode(65 + i)} (${nMembers})`;
         return (
           <text
             key={group.id || i}
@@ -87,7 +89,7 @@ function GroupLabels({ groupClusters = [], getPosition }: any) {
             stroke="#ccc"
             strokeWidth="0.5"
           >
-            Group {String.fromCharCode(65 + i)}
+            {groupLabel}
           </text>
         );
       })}
