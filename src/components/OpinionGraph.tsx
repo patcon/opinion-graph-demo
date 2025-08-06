@@ -87,6 +87,7 @@ function OpinionGraph({
         <BarChartsForGroupVotes
           groupClusters={groupClusters}
           groupVotes={groupVotes}
+          ptptois={ptptois}
           selectedTid={selectedTid}
           getPosition={getPosition}
         />
