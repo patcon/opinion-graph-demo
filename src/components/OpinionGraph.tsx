@@ -64,7 +64,7 @@ function OpinionGraph({
   });
 
   return (
-    <div>
+    <div style={{ maxWidth: globals.width }}>
       <svg
         width={globals.width}
         height={globals.height}
@@ -92,20 +92,22 @@ function OpinionGraph({
           getPosition={getPosition}
         />
       </svg>
-      <StatementSelector
-        comments={comments}
-        math={math}
-        selectedTab={selectedTab}
-        setSelectedTab={setSelectedTab}
-        selectedTid={selectedTid}
-        setSelectedTid={setSelectedTid}
-      />
-      <DataSentence
-        selectedTab={selectedTab}
-        selectedTid={selectedTid}
-        comments={comments}
-        math={math}
-      />
+      <div style={{ maxWidth: globals.width }}>
+        <StatementSelector
+          comments={comments}
+          math={math}
+          selectedTab={selectedTab}
+          setSelectedTab={setSelectedTab}
+          selectedTid={selectedTid}
+          setSelectedTid={setSelectedTid}
+        />
+        <DataSentence
+          selectedTab={selectedTab}
+          selectedTid={selectedTid}
+          comments={comments}
+          math={math}
+        />
+      </div>
     </div>
   );
 }
