@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react";
 import { OpinionGraph } from "./OpinionGraph";
 
+interface DatasetEntry {
+  path: string;
+  topic: string;
+  participant_count: number;
+  created: string;
+}
+
 export function Viewer() {
   const defaultDataset = "6jrufhr6dp";
 
@@ -19,7 +26,7 @@ export function Viewer() {
   const [math, setMath] = useState(null);
   const [comments, setComments] = useState(null);
   const [conversation, setConversation] = useState(null);
-  const [availableDatasets, setAvailableDatasets] = useState<string[]>([]);
+  const [availableDatasets, setAvailableDatasets] = useState<DatasetEntry[]>([]);
   const [selectedTab, setSelectedTab] = useState<"majority" | number>("majority");
   const [selectedTid, setSelectedTid] = useState<number | null>(null);
 
@@ -53,8 +60,8 @@ export function Viewer() {
       <div style={{ position: "absolute", top: 10, left: 10, zIndex: 10 }}>
         <select value={dataset} onChange={handleChangeDataset}>
           {availableDatasets.map((d) => (
-            <option key={d} value={d}>
-              {`${d.slice(0, 8)}…`} {/* fallback */}
+            <option key={d.path} value={d.path}>
+              {`${d.topic.length > 40 ? d.topic.slice(0, 40) + "…" : d.topic} (${d.participant_count} ptpts, ${new Date(Number(d.created)).getFullYear()})`}
             </option>
           ))}
         </select>
